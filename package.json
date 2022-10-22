@@ -1,0 +1,18 @@
+{
+    "name": "animoconsultoria",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js",
+      "dev": "sass --watch src/sass/globals.scss:src/styles/style.css",
+      "build": "sass src/sass/globals.scss:src/styles/style.min.css -s compressed"
+    },
+    "devDependencies": {
+      "sass": "^1.49.0"
+    },
+    "dependencies": {
+      "rimraf": "^3.0.2",
+      "serve": "^13.0.2",
+      "yarn": "^1.22.17"
+    }
+  }
